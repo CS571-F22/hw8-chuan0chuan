@@ -112,16 +112,18 @@ It is important that our apps be universally accessible. Consider the following 
 In your code, **implement any necessary changes** so that your application is accessible according to these 3 items. Then, comment on how your app meets each of these requirements.
 
 **Does each user input element have an appropriate label?**
-
 INSERT YOUR RESPONSE HERE.
+Each user input do have a label to inform about what these input used for. For example, in login screen, users know they are typing for their username or password in textinput box. In modal for posting message, each input element have reminding words for users.
 
 **Does each screen provide sufficient color contrast?**
-
 INSERT YOUR RESPONSE HERE.
+I am changing the colors to make high contrast text stand out better to increase the readability of text on a screen. For example, in login, logout and modal screen, every functional button have obvious color contrast. And step forward button is red, the other one is grey. I also use backgroudn color contrast for textinput in modal.
+
 
 **Is the text readable for all users?**
 
 INSERT YOUR RESPONSE HERE.
+I put label within textinput as placeholder at login screen. So user is easy to understand the function of these input box. And I added placeholder in modal component to reminder user. Meanwhile, I added a badger icon for our login screen to improve readability. 
 
 **Please make meaningful changes and comments.** For example, for Checklist Item #1, the button "Add Post" may be made more accessible by adding a label that announces the context in which it is in, e.g. "Add Post to the Arboretum Chatroom". I would make this change and then comment on how it improves accessibility.
 
